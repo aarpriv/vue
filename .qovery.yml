@@ -1,0 +1,15 @@
+---
+application:
+  name: "vue"
+  project: "random-project123123"
+  organization: "QoveryCommunity"
+databases:
+- type: "POSTGRESQL"
+  name: "jknjkn"
+  version: "12"
+routers:
+- name: "main-vue"
+  routes:
+  - application_name: "vue"
+    paths:
+    - "/*"
